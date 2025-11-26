@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* -------------------First section alignment-------------------------- */
+
+.first-section1{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    padding: 1em;
+    margin: 0 20em 0 20em;
+}
+
+.first-section2{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 2em 0 5em 0;
+    margin: 0 21em 0 21em;
+}
+
+
+
+
+/* -------------------Second section alignment-------------------------- */
+
+.second-section1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding-top: 2em;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+
+}
+
+
+.squares{
+    display: flex;
+    justify-content: center;
+    flex:1 1 0;
+    gap: 3em;
+    padding-top: 2em;
+
+
+}
+.square{
+    display: flex;
+    flex: 1;
+    max-width: 150px;
+    min-height: 150px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+img#ette{
+    border: solid rgb(39, 125, 255);
+}
+
+.under-texts{
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    flex: 1;
+    justify-content: center;
+    flex: 1 0 0; 
+    gap: 7em;
+    color: grey;
+    font-size: 15px;
+}
+.undertext{
+    display: flex;
+    max-width: 100px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+/* coloring and sizing:*/
+
+.hero-text{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    max-width: 10em;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+a, #hero-secondtext{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    max-width: 30em;
+    margin-top: 0;
+
+}
+ul{
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+img{
+    border-radius: 10px;
+}
+button{
+    border: solid rgb(39, 125, 255);
+    border-radius: 10px;
+    padding: 5px 1em;
+    margin-top: 2em;
+    background-color: rgb(39, 125, 255);
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+}
+
