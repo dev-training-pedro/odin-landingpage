@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 body{
+    min-height: 100vh;
     margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* -------------------First section alignment-------------------------- */
@@ -23,7 +24,7 @@ body{
     margin: 0 20em 0 20em;
 }
 
-.first-section2{
+.hero-section{
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -99,11 +100,46 @@ img#ette{
 }
 
 
+/* -------------------Third section alignment-------------------------- */
+
+.quote-section{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* -------------------Fourth section alignment-------------------------- */
+
+.fourth-section1{
+    display: flex;
+    justify-content: center;
+    padding: 4em 3em 4em 3em;
+    background-color: #f9faf8;
+}
+
+.cta-section{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 125, 255);
+    border-radius: 5px;
+    padding: 3em 0em 3em 0em;
+    gap: 15em;
+    margin: 0 21em 0 21em;
+}
 
 
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 2em;
+}
 
-
-/* coloring and sizing:*/
+/* ----------------coloring and sizing:---------------- */
 
 .hero-text{
     color: #f9faf8;
@@ -111,10 +147,17 @@ img#ette{
     font-size: 48px;
     max-width: 10em;
 }
-.logo {
+.logo, .cta-main{
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
+}
+.cta-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+.cta-main{
+    font-size: 18px;
 }
 a, #hero-secondtext{
     color: #e5e7eb;
@@ -145,4 +188,26 @@ button{
     font-size: 15px;
     font-weight: 900;
 }
-
+.cta-button{
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 18px;
+}
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+    width: 30em;
+    padding: 2em 2em 0 2em;
+}
+.author{
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    align-self: flex-end;
+    margin: 0 21em 0 21em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+}
